@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="kr">
+    <html lang="en-KR">
       <body className={cn("min-h-screen bg-background font-sans antialiased", fontSans.variable)}>
         <ClientProvider>{children}</ClientProvider>
       </body>
