@@ -6,7 +6,8 @@ import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 export const ClientProvider = ({ children }: { children: React.ReactNode }) => {
   return (
     <QueryProvider>
-      {children} <ReactQueryDevtools />
+      {children}
+      <ReactQueryDevtools />
     </QueryProvider>
   );
 };
